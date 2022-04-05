@@ -16,4 +16,6 @@ echo ${names[1]:2:4}
 echo ${names[*]/a/*}
 unset names[1]
 echo ${names[*]}
-
+echo hello
+a=5
+echo $a
